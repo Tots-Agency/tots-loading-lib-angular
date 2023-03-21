@@ -2,6 +2,7 @@
  * Public API Surface of loading
  */
 
-export * from './lib/loading.service';
-export * from './lib/loading.component';
+/**
+ * Modules
+ */
 export * from './lib/loading.module';
