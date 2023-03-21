@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class SquareInBitsLoadingComponent {
   @Input() isFullPage: boolean = false;
   @Input() bgColor: string = "transparent";
+  @Input() color: string = "#80bc00";
 }

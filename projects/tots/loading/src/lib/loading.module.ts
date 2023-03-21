@@ -21,4 +21,4 @@ import { SquareInBitsLoadingComponent } from './loadings/square-in-bits-loading/
     SquareInBitsLoadingComponent
   ]
 })
-export class LoadingModule { }
+export class TotsLoadingModule { }
