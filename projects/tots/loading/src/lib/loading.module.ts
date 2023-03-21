@@ -5,12 +5,18 @@ import { NgModule } from '@angular/core';
 /** Loadings */
 import { SquareInBitsLoadingComponent } from './loadings/square-in-bits-loading/square-in-bits-loading.component';
 
+/** Components */
+import { LoadingFactoryComponent } from './components/loading-factory/loading-factory.component';
+
 
 
 @NgModule({
   declarations: [
     /** Loadings */
-    SquareInBitsLoadingComponent
+    SquareInBitsLoadingComponent,
+
+    /** Components */
+    LoadingFactoryComponent
   ],
   imports: [
     /** Angular */
@@ -18,7 +24,10 @@ import { SquareInBitsLoadingComponent } from './loadings/square-in-bits-loading/
   ],
   exports: [
     /** Loadings */
-    SquareInBitsLoadingComponent
+    SquareInBitsLoadingComponent,
+
+    /** Components */
+    LoadingFactoryComponent
   ]
 })
 export class TotsLoadingModule { }
