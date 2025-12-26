@@ -3,7 +3,8 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'tots-square-in-bits-loading',
   templateUrl: './square-in-bits-loading.component.html',
-  styleUrls: ['./square-in-bits-loading.component.scss']
+  styleUrls: ['./square-in-bits-loading.component.scss'],
+  standalone: false
 })
 export class SquareInBitsLoadingComponent {
   @Input() isFullPage: boolean = false;

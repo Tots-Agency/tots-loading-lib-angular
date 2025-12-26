@@ -3,7 +3,8 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'tots-loading-factory',
   templateUrl: './loading-factory.component.html',
-  styleUrls: ['./loading-factory.component.css']
+  styleUrls: ['./loading-factory.component.css'],
+  standalone: false
 })
 export class LoadingFactoryComponent {
   @Input() isFullPage: boolean = false;

@@ -1,1 +1,3 @@
-<tots-square-in-bits-loading *ngIf="type == 'square-in-bits'" [isFullPage]="isFullPage" [color]="color"></tots-square-in-bits-loading>
+@if (type == 'square-in-bits') {
+	<tots-square-in-bits-loading [isFullPage]="isFullPage" [color]="color"></tots-square-in-bits-loading>
+}
